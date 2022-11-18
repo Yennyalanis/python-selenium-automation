@@ -1,0 +1,41 @@
+
+.header {
+    background-color: rgb(0, 0, 0);
+    font-size: xx-large;
+    color: white;
+    animation: neon 3s infinite;
+}
+
+@keyframes neon {
+    0%, 39%, 41%, 59%, 61%, 100% {
+        text-shadow: white 0 0 12px,
+        #2caa8e 0 0 24px,
+        rgba(44, 170, 142, 0.45) 0 0 36px;
+    }
+}
+
+    40%, 60% {
+        text-shadow: none;
+    }
+
+#ingredients {
+    color: black;
+    background-color: rgba(24, 78, 43, 0.63);
+    border: solid 4px black;
+    box-shadow:
+    15px 15px 0 -4px white,
+    15px 15px black;
+    font-size: large;
+}
+}
+#instructions {
+    color: black;
+    background-color: white;
+    border: solid 4px black;
+    box-shadow:
+    15px 15px 0 -4px white,
+    15px 15px black;
+    font-size: large;
+
+
+}
